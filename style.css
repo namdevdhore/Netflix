@@ -1,0 +1,542 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.showcase{
+    /* display: flex; */
+    /* justify-content: space-between; */
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.showcase::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: rgb(0, 0, 0, 0.2);
+    box-shadow: inset 120px 100px 250px #000000, inset -120px -100px 250px #050000;
+}
+.showcase_top{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    z-index: 2;
+    padding: 26px 0px 0px 55px;
+}
+.showcase_top #logo{
+    height: 35px;
+}
+/* .navflex{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px ;
+} */
+.showcase_top .submit{
+    background-color: #ef0914;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 3px; 
+    float: right;
+    position: relative;
+     right: 55px;
+ }
+.showcase_top select{
+    background-color: transparent;
+    color: white;
+    border-radius: 3px; 
+    padding: 8px 10px; 
+     float: right; 
+    position: relative;
+     right: 85px;
+
+ } 
+.showcase_top select option{
+    color: black;
+}
+
+
+
+
+
+.showcase .get-started-container{
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    z-index: 2;
+    position: relative;
+    top: 180px;
+    width: 100%;
+    text-align: center;
+    
+}
+.showcase .get-started-container h1,p{
+    color: white;
+}
+.showcase .get-started-container h1{
+    font-size: 3.9rem;
+    /* padding: 15px; */
+}
+.showcase .get-started-container .para-1{
+    font-size: 1.7rem;
+    padding: 5px;
+}
+.showcase .get-started-container .para-2{
+    font-size: 1.2rem;
+    padding: 15px;
+    /* margin-bottom: 15px; */
+}
+.showcase .get-started-container input{
+    width: 35%;
+    padding: 20px;
+    border: none;
+    margin-top: 0.5px;
+    outline: none;
+}
+.showcase .get-started-container button{
+    padding: 20px;
+    border: none;
+    background-color: #ef0914;
+    color: white;
+    margin-left: -0.3px;
+    font-weight: bold;
+}
+
+
+
+
+.main-section .section-container{
+    border-top: 8px solid #222;
+    background-color: black;
+    display: flex;
+    padding: 0px 80px;
+    padding-bottom: 90px;
+}
+.main-section .section-container .left-column {
+    padding-top: 13%;
+    padding-right: 2%;
+}
+.main-section .section-container .left-column h1{
+    color: white;
+}
+.main-section .section-container .left-column h3{
+    color: white;
+    font-size: 1.4rem;
+    font-weight: normal;
+    margin-top: 5%;
+}
+.main-section .section-container .right-column {
+    overflow: hidden;
+    position: relative;
+    width: 80%;
+    height: 500px;
+}
+.main-section .section-container .right-column img{
+
+    position: absolute;
+    width: 100%;
+}
+.main-section .section-container .right-column .video-1{
+    margin-top: 16%;
+    margin-left: 13%;
+    width: 73%;
+    
+}
+
+.main-section .section2-container{
+    border-top: 8px solid #222;
+    background-color: black;
+    display: flex;
+    padding: 0px 80px;
+    padding-bottom: 90px;
+}
+.main-section .section2-container .left-column img{
+    width: 100%;
+}
+.main-section .section2-container .left-column .box{
+    border: 2px solid rgb(255, 255, 255, .25);
+    background-color: black;
+    border-radius: 10px;
+    width: 60%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    margin-top: -22%;
+}
+.main-section .section2-container .left-column .box .boxshot{
+    width: 15%;
+
+}
+.main-section .section2-container .right-column .box p{
+    margin-top: 3%;
+    margin-left: 5%;
+}
+.main-section .section2-container .left-column .box p a{
+    text-decoration: none;
+}
+.main-section .section2-container .left-column .box .download-gif{
+    width: 3em;
+    height: 3em;
+    position: absolute;
+    right: 0;
+}
+.main-section .section2-container .right-column{
+    padding-top: 13%;
+    padding-right: 2%;
+    width: 50%;
+}
+.main-section .section2-container .right-column h1{
+    color: white;
+}
+.main-section .section2-container .right-column h3{
+    color: white;
+    font-size: 1.4rem;
+    font-weight: normal;
+    margin-top: 5px;
+}
+
+
+
+.main-section .section-container .right-column .video-2{
+
+    margin-top: 8%;
+    margin-left: 19%;
+    width: 61%;
+}
+
+
+
+.main-section .section2-container .left-column img{
+    width: 100%;
+}
+
+
+
+
+
+.freq{
+    border: 2px solid rgb(255, 255, 255, .25);
+    text-align: center;
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+.freq h1{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 3rem;
+}
+.ques{
+    list-style: none;
+    /* background-color: rgb(105, 92, 75); */
+    display: flex;
+    flex-direction: column;
+    flex-basis: 40%;
+    align-items: center;
+}
+
+.ques li{
+    padding: 20px 30px;
+    margin: 5px;
+    font-size: 1.6rem;
+    background-color: rgb(69, 69, 69 );
+    color: white;
+    text-align: left;
+    width: 50%;
+}
+
+.freq p{
+    padding-top: 60px;
+    font-size: 1.2rem;
+    font-weight: 200;
+}
+.input{
+    display: inline-grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 50% 40%;
+    margin-left: 20px;
+    padding: 20px;
+}
+.input input{
+    width: 500px;
+    height: 3rem;
+}
+.input button{
+    height: 3rem;
+    width: 200px;
+    left: 20px;
+    text-align: center;
+    background-color: #ef0914;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 2px;
+    color: white;
+}
+
+
+
+
+
+
+footer{
+     background-color: black;
+     border-top: 8px solid #222;
+     padding-top: 5%;
+    justify-content: space-evenly;
+
+}
+footer h5{
+    color: white;
+    text-align: center;
+    padding-bottom: 1%;
+}
+footer .content{
+    max-width: 1350px;
+    margin: 0px 90px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+footer .content .box{
+    width: 20%;
+    transition: all 0.4s ease;
+}
+footer .content p{
+    text-align: justify;
+}
+footer  .content .middle{
+    padding-left: 80px;   
+}
+footer .content .middle a{
+    line-height: 32px;
+    color: white;
+    text-decoration: none;
+}
+footer .content .middle a:hover{
+    text-decoration: underline;
+}
+footer .content .middle select{
+    padding: 8px;
+    background-color: transparent;
+    border: 1px solid grey;
+    color: white;
+}
+footer .content .middle select option{
+   
+    background-color: black;
+    
+}
+
+
+
+
+@media (max-width:1100px) {
+    footer .content .middle{
+        padding-left: 50px;
+    }
+    
+}
+
+@media (max-width: 943px) {
+    .showcase .get-started-container{
+        position: relative;
+        top: 90px;
+    }
+    .showcase .get-started-container h1{
+        font-size: 3.4rem;
+    }
+    .showcase .get-started-container .para-1{
+        font-size: 1.5rem;
+    }
+    .showcase .get-started-container .para-2{
+        font-size: 1rem;
+    }
+    .showcase .get-started-container input{
+        padding: 17px;
+        width: 55%;
+    }
+    .showcase .get-started-container button{
+        display: block;
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+        margin-top: 1.5%;
+        padding: 8px;
+
+    }
+
+    
+
+    .main-section .section-container{
+        display: block;
+    }
+    .main-section .section-container .left-column{
+        width: 100%;
+        text-align: center;
+    }
+    .main-section .section-container .right-column{
+        width: 100%;
+    }
+
+
+    .main-section .section2-container{
+        display: block;
+
+    }
+    .main-section .section2-container .left-column{
+        width: 100%;
+    }
+    .main-section .section2-container .right-column{
+        width: 100%;
+        text-align: center;
+    }
+
+
+    footer .content .box{
+        width: 50%;
+    }
+
+
+}
+
+@media (max-width: 659px) {
+    .showcase_top{
+        padding: 26px 0px 0px 25px;
+    }
+    .showcase_top #logo{
+        height: 25px;
+    }
+    .showcase_top .submit{
+        position: relative;
+        right: 25px;
+        padding: 2px 10px;
+    }
+    .showcase_top select{
+        position: relative;
+        right: 40px;
+        padding: 2px 10px;
+    }
+    .showcase .get-started-container{
+        position: relative;
+        top: 60px;
+    }
+    .showcase .get-started-container h1{
+        font-size: 2rem;
+        padding: 50px;
+        padding-bottom: 0px;
+    }
+    .showcase .get-started-container .para-1{
+        font-size: 1.5rem;
+
+    }
+    .showcase .get-started-container .para-2{
+        font-size: 1rem;
+    }
+    .showcase .get-started-container input{
+        padding: 14px;
+        width: 70%;
+    }
+
+
+
+    .lastsec .freq .ques{
+        width: 100%;
+    }
+    .lastsec .freq input{
+        padding: 14px;
+        width: 90%;
+    }
+
+}
+
+
+@media (max-width:774px) {
+
+    .main-section .section-container{
+        padding-bottom: 0px;
+    }
+    
+    .lastsec .freq input{
+        /* padding: 0px; */
+        width: 80%;
+    }
+    
+}
+
+@media (max-width:500px) {
+    .main-section .section-container .right-column{
+        height: 270px;
+    }
+
+    .main-section .section2-container .left-column .box{
+        width: 100%;
+    }
+
+    .lastsec .freq input{
+        
+        width: 60%;
+    }
+
+    
+    footer{
+    position: relative;
+}
+
+footer .content .box{
+    width: 100%;
+    margin-top: 30px;
+}
+footer .content .middle{
+    padding-left: 0;
+}
+
+}
+
+
+
+@media (max-width: 346px) {
+    /* .showcase_top{
+        padding: 26px 0px 0px 25plx;
+    } */
+    .showcase_top #logo{
+        height: 22px;
+    }
+    .showcase_top .submit{
+        /* position: relative;
+        right: 25px; */
+        padding: 1px 5px;
+    }
+    .showcase_top select{
+        position: relative;
+        right: 30px;
+        padding: 1px 0px;
+    }
+    .showcase .get-started-container h1{
+        font-size: 1.5rem;
+    }
+    .showcase .get-started-container .para-1{
+        font-size: 1.1rem;
+    }
+    .showcase .get-started-container .para-2{
+        font-size: 0.8rem;
+    }
+}
+
+
+
